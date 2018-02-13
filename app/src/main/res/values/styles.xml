@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#E56AA3</item>状态栏背景色
+        <item name="colorPrimaryDark">#E56AA3</item>状态栏底色
+        <item name="colorAccent">@color/colorAccent</item>
+        各控制元件(如：check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色。
+        <!--<item name="android:windowBackground">@color/colorAccent</item>-->
+        <item name="actionOverflowMenuStyle">@style/toolbarMenu</item>
+    </style>
+    textColorPrimary
+    App bar 上的标题与更多菜单中的文字颜色。
+    Toolbar 的背景色在layout文件中设置background属性。
+
+    <style name="toolbarMenu" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>//使菜单在导航的下面弹出
+        <!-- <item name="android:popupBackground">@null</item>：弹出菜单背景色-->
+        <item name="android:dropDownVerticalOffset">0dip</item>：弹出菜单与标题栏的垂直间距
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--<item name="queryBackground">@color/colorAccent</item>-->
+        <!--<item name="submitBackground">@null</item>-->
+        <!--<item name="searchHintIcon">@null</item>-->
+        <!--<item name="defaultQueryHint">@string/abc_search_hint</item>-->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="TabLayoutTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+
+    <string name="action_settings">setting</string>
+    <string name="setting_1">setting1</string>
+    <string name="setting_2">setting2</string>
+    <string name="setting_3">setting3</string>
+    <string name="setting_4">setting4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="main_tab_name">
+        <item>音乐</item>
+        <item>电影</item>
+        <item>鬼畜</item>
+        <item>连续剧</item>
+        <item>旅游</item>
+    </string-array>
+
+</resources>
